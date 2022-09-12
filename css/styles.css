@@ -8,8 +8,9 @@
   header {
     width: 100%;
     height: 100vh;
+    background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
-      url("../img/black-back.jpg");
+    url("../img/black-back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -122,13 +123,13 @@
 
   @keyframes changetext {
     0% {
-      content: "civil engineer";
-    }
-    50% {
-      content: "Editor";
-    }
-    100% {
       content: "web developer";
+    }
+    40% {
+      content: "editor";
+    }
+    75% {
+      content: "3rd year civil engineer";
     }
   }
 
