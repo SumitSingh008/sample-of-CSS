@@ -123,13 +123,13 @@
 
   @keyframes changetext {
     0% {
-      content: "web developer";
+      content: "a web developer";
     }
     40% {
       content: "editor";
     }
     75% {
-      content: "3rd year civil engineer";
+      content: "civil engineer";
     }
   }
 
