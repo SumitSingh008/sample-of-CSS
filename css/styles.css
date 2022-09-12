@@ -124,10 +124,10 @@
     0% {
       content: "civil engineer";
     }
-    40% {
+    50% {
       content: "Editor";
     }
-    75% {
+    100% {
       content: "web developer";
     }
   }
